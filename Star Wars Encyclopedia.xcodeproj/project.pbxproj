@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FEB223920604F30004B7A19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB223820604F30004B7A19 /* AppDelegate.swift */; };
+		6FEB223B20604F30004B7A19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB223A20604F30004B7A19 /* ViewController.swift */; };
+		6FEB223E20604F30004B7A19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FEB223C20604F30004B7A19 /* Main.storyboard */; };
+		6FEB224120604F30004B7A19 /* Star_Wars_Encyclopedia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB223F20604F30004B7A19 /* Star_Wars_Encyclopedia.xcdatamodeld */; };
+		6FEB224320604F30004B7A19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FEB224220604F30004B7A19 /* Assets.xcassets */; };
+		6FEB224620604F30004B7A19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FEB224420604F30004B7A19 /* LaunchScreen.storyboard */; };
+		6FEB225120604F30004B7A19 /* Star_Wars_EncyclopediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB225020604F30004B7A19 /* Star_Wars_EncyclopediaTests.swift */; };
+		6FEB225C20604F30004B7A19 /* Star_Wars_EncyclopediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB225B20604F30004B7A19 /* Star_Wars_EncyclopediaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FEB224D20604F30004B7A19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FEB222D20604F30004B7A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FEB223420604F30004B7A19;
+			remoteInfo = "Star Wars Encyclopedia";
+		};
+		6FEB225820604F30004B7A19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FEB222D20604F30004B7A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FEB223420604F30004B7A19;
+			remoteInfo = "Star Wars Encyclopedia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FEB223520604F30004B7A19 /* Star Wars Encyclopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Star Wars Encyclopedia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FEB223820604F30004B7A19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FEB223A20604F30004B7A19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6FEB223D20604F30004B7A19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FEB224020604F30004B7A19 /* Star_Wars_Encyclopedia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Star_Wars_Encyclopedia.xcdatamodel; sourceTree = "<group>"; };
+		6FEB224220604F30004B7A19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FEB224520604F30004B7A19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FEB224720604F30004B7A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FEB224C20604F30004B7A19 /* Star Wars EncyclopediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Star Wars EncyclopediaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FEB225020604F30004B7A19 /* Star_Wars_EncyclopediaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star_Wars_EncyclopediaTests.swift; sourceTree = "<group>"; };
+		6FEB225220604F30004B7A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FEB225720604F30004B7A19 /* Star Wars EncyclopediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Star Wars EncyclopediaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FEB225B20604F30004B7A19 /* Star_Wars_EncyclopediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star_Wars_EncyclopediaUITests.swift; sourceTree = "<group>"; };
+		6FEB225D20604F30004B7A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FEB223220604F30004B7A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FEB224920604F30004B7A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FEB225420604F30004B7A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FEB222C20604F30004B7A19 = {
+			isa = PBXGroup;
+			children = (
+				6FEB223720604F30004B7A19 /* Star Wars Encyclopedia */,
+				6FEB224F20604F30004B7A19 /* Star Wars EncyclopediaTests */,
+				6FEB225A20604F30004B7A19 /* Star Wars EncyclopediaUITests */,
+				6FEB223620604F30004B7A19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FEB223620604F30004B7A19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FEB223520604F30004B7A19 /* Star Wars Encyclopedia.app */,
+				6FEB224C20604F30004B7A19 /* Star Wars EncyclopediaTests.xctest */,
+				6FEB225720604F30004B7A19 /* Star Wars EncyclopediaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FEB223720604F30004B7A19 /* Star Wars Encyclopedia */ = {
+			isa = PBXGroup;
+			children = (
+				6FEB223820604F30004B7A19 /* AppDelegate.swift */,
+				6FEB223A20604F30004B7A19 /* ViewController.swift */,
+				6FEB223C20604F30004B7A19 /* Main.storyboard */,
+				6FEB224220604F30004B7A19 /* Assets.xcassets */,
+				6FEB224420604F30004B7A19 /* LaunchScreen.storyboard */,
+				6FEB224720604F30004B7A19 /* Info.plist */,
+				6FEB223F20604F30004B7A19 /* Star_Wars_Encyclopedia.xcdatamodeld */,
+			);
+			path = "Star Wars Encyclopedia";
+			sourceTree = "<group>";
+		};
+		6FEB224F20604F30004B7A19 /* Star Wars EncyclopediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FEB225020604F30004B7A19 /* Star_Wars_EncyclopediaTests.swift */,
+				6FEB225220604F30004B7A19 /* Info.plist */,
+			);
+			path = "Star Wars EncyclopediaTests";
+			sourceTree = "<group>";
+		};
+		6FEB225A20604F30004B7A19 /* Star Wars EncyclopediaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FEB225B20604F30004B7A19 /* Star_Wars_EncyclopediaUITests.swift */,
+				6FEB225D20604F30004B7A19 /* Info.plist */,
+			);
+			path = "Star Wars EncyclopediaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FEB223420604F30004B7A19 /* Star Wars Encyclopedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FEB226020604F30004B7A19 /* Build configuration list for PBXNativeTarget "Star Wars Encyclopedia" */;
+			buildPhases = (
+				6FEB223120604F30004B7A19 /* Sources */,
+				6FEB223220604F30004B7A19 /* Frameworks */,
+				6FEB223320604F30004B7A19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Star Wars Encyclopedia";
+			productName = "Star Wars Encyclopedia";
+			productReference = 6FEB223520604F30004B7A19 /* Star Wars Encyclopedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FEB224B20604F30004B7A19 /* Star Wars EncyclopediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FEB226320604F30004B7A19 /* Build configuration list for PBXNativeTarget "Star Wars EncyclopediaTests" */;
+			buildPhases = (
+				6FEB224820604F30004B7A19 /* Sources */,
+				6FEB224920604F30004B7A19 /* Frameworks */,
+				6FEB224A20604F30004B7A19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FEB224E20604F30004B7A19 /* PBXTargetDependency */,
+			);
+			name = "Star Wars EncyclopediaTests";
+			productName = "Star Wars EncyclopediaTests";
+			productReference = 6FEB224C20604F30004B7A19 /* Star Wars EncyclopediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FEB225620604F30004B7A19 /* Star Wars EncyclopediaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FEB226620604F30004B7A19 /* Build configuration list for PBXNativeTarget "Star Wars EncyclopediaUITests" */;
+			buildPhases = (
+				6FEB225320604F30004B7A19 /* Sources */,
+				6FEB225420604F30004B7A19 /* Frameworks */,
+				6FEB225520604F30004B7A19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FEB225920604F30004B7A19 /* PBXTargetDependency */,
+			);
+			name = "Star Wars EncyclopediaUITests";
+			productName = "Star Wars EncyclopediaUITests";
+			productReference = 6FEB225720604F30004B7A19 /* Star Wars EncyclopediaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FEB222D20604F30004B7A19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ian Yang";
+				TargetAttributes = {
+					6FEB223420604F30004B7A19 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6FEB224B20604F30004B7A19 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6FEB223420604F30004B7A19;
+					};
+					6FEB225620604F30004B7A19 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6FEB223420604F30004B7A19;
+					};
+				};
+			};
+			buildConfigurationList = 6FEB223020604F30004B7A19 /* Build configuration list for PBXProject "Star Wars Encyclopedia" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FEB222C20604F30004B7A19;
+			productRefGroup = 6FEB223620604F30004B7A19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FEB223420604F30004B7A19 /* Star Wars Encyclopedia */,
+				6FEB224B20604F30004B7A19 /* Star Wars EncyclopediaTests */,
+				6FEB225620604F30004B7A19 /* Star Wars EncyclopediaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FEB223320604F30004B7A19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FEB224620604F30004B7A19 /* LaunchScreen.storyboard in Resources */,
+				6FEB224320604F30004B7A19 /* Assets.xcassets in Resources */,
+				6FEB223E20604F30004B7A19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FEB224A20604F30004B7A19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FEB225520604F30004B7A19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FEB223120604F30004B7A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FEB223B20604F30004B7A19 /* ViewController.swift in Sources */,
+				6FEB223920604F30004B7A19 /* AppDelegate.swift in Sources */,
+				6FEB224120604F30004B7A19 /* Star_Wars_Encyclopedia.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FEB224820604F30004B7A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FEB225120604F30004B7A19 /* Star_Wars_EncyclopediaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FEB225320604F30004B7A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FEB225C20604F30004B7A19 /* Star_Wars_EncyclopediaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FEB224E20604F30004B7A19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FEB223420604F30004B7A19 /* Star Wars Encyclopedia */;
+			targetProxy = 6FEB224D20604F30004B7A19 /* PBXContainerItemProxy */;
+		};
+		6FEB225920604F30004B7A19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FEB223420604F30004B7A19 /* Star Wars Encyclopedia */;
+			targetProxy = 6FEB225820604F30004B7A19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FEB223C20604F30004B7A19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FEB223D20604F30004B7A19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FEB224420604F30004B7A19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FEB224520604F30004B7A19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FEB225E20604F30004B7A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FEB225F20604F30004B7A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FEB226120604F30004B7A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Star Wars Encyclopedia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Star-Wars-Encyclopedia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FEB226220604F30004B7A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Star Wars Encyclopedia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Star-Wars-Encyclopedia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6FEB226420604F30004B7A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Star Wars EncyclopediaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Star-Wars-EncyclopediaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Star Wars Encyclopedia.app/Star Wars Encyclopedia";
+			};
+			name = Debug;
+		};
+		6FEB226520604F30004B7A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Star Wars EncyclopediaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Star-Wars-EncyclopediaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Star Wars Encyclopedia.app/Star Wars Encyclopedia";
+			};
+			name = Release;
+		};
+		6FEB226720604F30004B7A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Star Wars EncyclopediaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Star-Wars-EncyclopediaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Star Wars Encyclopedia";
+			};
+			name = Debug;
+		};
+		6FEB226820604F30004B7A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Star Wars EncyclopediaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Star-Wars-EncyclopediaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Star Wars Encyclopedia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FEB223020604F30004B7A19 /* Build configuration list for PBXProject "Star Wars Encyclopedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FEB225E20604F30004B7A19 /* Debug */,
+				6FEB225F20604F30004B7A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FEB226020604F30004B7A19 /* Build configuration list for PBXNativeTarget "Star Wars Encyclopedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FEB226120604F30004B7A19 /* Debug */,
+				6FEB226220604F30004B7A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FEB226320604F30004B7A19 /* Build configuration list for PBXNativeTarget "Star Wars EncyclopediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FEB226420604F30004B7A19 /* Debug */,
+				6FEB226520604F30004B7A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FEB226620604F30004B7A19 /* Build configuration list for PBXNativeTarget "Star Wars EncyclopediaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FEB226720604F30004B7A19 /* Debug */,
+				6FEB226820604F30004B7A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6FEB223F20604F30004B7A19 /* Star_Wars_Encyclopedia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6FEB224020604F30004B7A19 /* Star_Wars_Encyclopedia.xcdatamodel */,
+			);
+			currentVersion = 6FEB224020604F30004B7A19 /* Star_Wars_Encyclopedia.xcdatamodel */;
+			path = Star_Wars_Encyclopedia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6FEB222D20604F30004B7A19 /* Project object */;
+}
